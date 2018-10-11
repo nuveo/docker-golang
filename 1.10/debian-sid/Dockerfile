@@ -1,4 +1,4 @@
-FROM debian:sid
+FROM buildpack-deps:sid
 
 # gcc for cgo
 RUN apt-get update && apt-get install -y --no-install-recommends \
